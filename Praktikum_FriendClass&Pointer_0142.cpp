@@ -33,3 +33,33 @@ class layangLayang{
     friend class belahKetupat;
 };
 
+class belahKetupat{
+
+
+    private:
+    int diagSatu, diagDua, sisi, hasilLuas, hasilKeliling;
+
+    public:
+    void luas(){
+        hasilLuas = 0.5 * diagSatu * diagDua;
+    }
+
+    void keliling(){
+        hasilKeliling = sisi * sisi * sisi * sisi;
+    }
+
+    void input(){
+        cout << "Masukan diagonal ke-1: ";
+        cin >> diagSatu;
+        cout << "Masukan diagonal ke-2: ";
+        cin >> diagDua;
+
+        cout << "Masukan sisi: ";
+        cin >> sisi;
+    }
+    void output(){
+        cout << "hasil luas: " << hasilLuas << endl;
+        cout << "hasil keliling: " << hasilKeliling << endl;
+    }
+};
+
