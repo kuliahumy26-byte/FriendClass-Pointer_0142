@@ -63,3 +63,25 @@ class belahKetupat{
     }
 };
 
+int main (){
+    layangLayang LayangSatu;
+    belahKetupat KetupatSatu;
+
+    cout << "masukan empat variable untuk kalkulasi luas dan keliling layang2 " << endl;
+    LayangSatu.input();
+    LayangSatu.luas();
+    LayangSatu.keliling();
+    LayangSatu.output();
+
+    cout << endl;
+
+    cout << "Masukan tiga variable untuk kalkulasi luas dan keliling Belah Ketupat" << endl;
+    KetupatSatu.input();
+    KetupatSatu.luas();
+    KetupatSatu.keliling();
+    KetupatSatu.output();
+
+    cout << endl;
+
+    
+}
